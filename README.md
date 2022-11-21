@@ -6,8 +6,10 @@ more or less a working version of [this script](https://github.com/Anohji/better
 
 `$ python scrape.py [country code] [start page] [end page]`
 
-you can also pass `global` as the country code to scrape the global rankings
+or pass `global` as the country code to scrape the global rankings
 
-example:
+you can also pass the `--detailed` flag to scrape more data from each user
 
-`$ python scrape.py no 1 200`
+# example
+
+`$ python scrape.py no 1 200 --detailed`
